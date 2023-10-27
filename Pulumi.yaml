@@ -1,0 +1,11 @@
+name: streamlit-app
+runtime:
+  name: python
+  options:
+    virtualenv: .venv
+description: Creates Azure App Service and deploys a streamlit application
+template:
+  config:
+    location:
+      description: Azure region to deploy resources to
+      default: uksouth
