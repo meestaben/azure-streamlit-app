@@ -23,8 +23,8 @@ Deploys a new custom registry in Azure Container Registry, builds a custom Docke
    This installs the dependent packages [needed](https://www.pulumi.com/docs/intro/concepts/how-pulumi-works/) for our Pulumi program.
 
     ```bash
-    $ python3 -m venv .venv
-    $ source .venv/bin/activate
+    $ python3 -m venv venv
+    $ source venv/bin/activate
     $ pip3 install -r requirements.txt
     ```
 

@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-COPY app.py /app/
+COPY src/ /app/
 COPY requirements.txt /requirements.txt
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod a+x /entrypoint.sh
